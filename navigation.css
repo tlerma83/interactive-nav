@@ -1,0 +1,50 @@
+nav a {
+    text-decoration: none;
+
+color: black;}
+    
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    background-color: antiquewhite;
+    border: 2px groove crimson;
+    border-radius: 5%;
+}
+
+nav a:hover {
+    color:aquamarine;
+    background-color: hotpink;
+}
+
+/*
+nav:hover {
+    background-color: palevioletred;
+*/
+}
+
+nav a:visited {
+    color: aqua;
+}
+
+/*
+ul li a:active {
+    padding 3px;
+}
+*/
+
+nav a:hover {
+    padding: 2px;
+    border: 2px groove #464646;
+    border-radius: 5%;
+}
+
+
+li {
+    display: inline-block;
+    margin: 5px 5px;
+    width: 40px;
+    text-align: center;
+}
